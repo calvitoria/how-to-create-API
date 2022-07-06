@@ -1,22 +1,22 @@
 <div>    
-  <img alt="how to create your own api - this is a guide on how to make your own api using JS, node.js and Heroku! Dont forget to star this repository" src="https://user-images.githubusercontent.com/95686401/177621091-81b2355f-eff5-467d-a81b-3bdec466baba.png" /> 
+  <img alt="como criar sua própria api! esse é um guia de como fazer isso utilizando node.js e heroku como host" src="https://user-images.githubusercontent.com/95686401/177661558-0d7be407-ac22-4454-aca2-f9377b7b69ba.png" /> 
 </div>
 
 
-## how to create your own API: 
+## como criar sua própria API: 
 Esse repositório foi criado para mostrar o passo a passo de como criar uma API e disponibiliza-la ao público. Se gostou do conteúdo, peço que favorite esse repositório! 
 
 
 <div>    
-  <img alt="languages" width="250px" src="https://user-images.githubusercontent.com/95686401/177618703-b3400ec7-50ed-4b4e-941d-147437af7ab2.png" /> 
+  <img alt="languages" width="250px" src="https://user-images.githubusercontent.com/95686401/177661767-6b216654-07b4-4ffe-9222-2146813ab958.png" /> 
 </div>
 
-### clique [aqui](https://github.com/calvitoria/how-to-mock-API/blob/main/README.md) para acessar o material em inglês 🇬🇧
+#### clique [aqui](https://github.com/calvitoria/how-to-mock-API/blob/main/README.md) para acessar o material em inglês 🇬🇧
 
 <hr/>
 
 <div>    
-  <img alt="configurações iniciais" width="350px" src="https://user-images.githubusercontent.com/95686401/177658129-530cf712-dabe-4b4f-af06-03a9063f529f.png" /> 
+  <img alt="configurações iniciais" width="350px" src="https://user-images.githubusercontent.com/95686401/177661642-0de09ee5-c6ec-4b00-a518-b2aceef42b76.png" /> 
 </div>
 
 1. crie o diretório no qual você utilizará para a criação da API.
@@ -28,7 +28,7 @@ Esse repositório foi criado para mostrar o passo a passo de como criar uma API 
 
 <hr/>
 <div>    
-  <img alt="crie seu banco de dados" width="350px" src="https://user-images.githubusercontent.com/95686401/177658177-616660e3-7106-4ba6-bcc0-0cfa1f18cb25.png" /> 
+  <img alt="crie seu banco de dados" width="350px" src="https://user-images.githubusercontent.com/95686401/177661645-a5352a2c-ea0d-4a4b-bec0-8a439c28a6e8.png" /> 
 </div>
 
 #### agora vamos começar com nosso arquivo que possui o banco de dados da nossa API!
@@ -53,7 +53,7 @@ exemple: a chraracter API
 <hr/>
 
 <div>    
-  <img alt="crie o index.js" width="350px" src="https://user-images.githubusercontent.com/95686401/177658207-901e3cd6-85b1-43a7-878f-7ec338ab4520.png" /> 
+  <img alt="crie o index.js" width="350px" src="https://user-images.githubusercontent.com/95686401/177661648-447bdd32-8e3f-4faa-8afd-b7fc226db194.png" /> 
 </div>
 
 1. crie um arquivo index.js
@@ -78,7 +78,7 @@ app.listen(port, () => {
 3. crie um arquivo .gitignore! esse passo é importantíssimo! se não o fizer, pode acabar dando problema na hora de fazer o deploy da sua API no heroku!
 
 <div>    
-  <img alt="edite seu package.json" width="350px" src="https://user-images.githubusercontent.com/95686401/177658247-5f6220ca-03d8-4bd3-b12f-9e45a44763d3.png" /> 
+  <img alt="edite seu package.json" width="350px" src="https://user-images.githubusercontent.com/95686401/177661748-f4ca9ec6-89f0-4f6e-aae9-bc5bd4618429.png" /> 
 </div>
 
 #### agora vamos editar o arquivo package.json
@@ -107,7 +107,7 @@ seu arquivo deve se parecer com isso:
 <hr/>
 
 <div>    
-  <img alt="deploy your database" width="350px" src="https://user-images.githubusercontent.com/95686401/177658275-c0a1a02f-c92f-4a2c-99d7-3b30529eb4c0.png" /> 
+  <img alt="faça o deploy da api" width="350px" src="https://user-images.githubusercontent.com/95686401/177661756-58fd6151-2d9d-474e-a1d7-68d31dc90724.png" /> 
 </div>
 
 #### ok, agora é a hora de fazermos o Deploy!
@@ -120,7 +120,7 @@ seu arquivo deve se parecer com isso:
 <hr/>
 
 <div>    
-  <img alt="Usando sua api" width="350px" src="https://user-images.githubusercontent.com/95686401/177618276-e053e9cf-dad0-4e4d-b556-2f9bbeb4c8bf.png" /> 
+  <img alt="Usando sua api" width="350px" src="https://user-images.githubusercontent.com/95686401/177661759-75f59a8c-2cc8-4122-9fa7-4daeba0f3188.png" /> 
 </div>
 
 #### Usando sua API: 
@@ -128,7 +128,7 @@ agora você pode utilizar os métodos  GET, POST, PUT, DELETE... etc ao fazer re
 Não é incrível?
 
 ```
-fetch('https://NAME-OF-YOUR-API.herokuapp.com/DATABASE') 
+fetch('https://NOME-DA-SUA-API.herokuapp.com/DATABASE') 
   .then(response => response.json())
   .then(data => console.log(data));
 ```
@@ -137,7 +137,7 @@ E é isso! simples e rápido!
 
 
 <div>    
-  <img alt="quer ajudar a comunidade? traduza o material para outra língua!" src="https://user-images.githubusercontent.com/95686401/177618708-93d1f965-6d91-469e-995d-407e89be1483.png" /> 
+  <img alt="quer ajudar a comunidade? traduza o material para outra língua!" src="https://user-images.githubusercontent.com/95686401/177661770-419e9b1b-16a9-47eb-b245-1390087b0d5c.png" /> 
 </div>
 
 <hr/>
