@@ -89,7 +89,9 @@ app.listen(port, () => {
 ```
 "scripts": {
   "start": "node index.js"
-},```
+},
+
+```
 
 your package.json file should be something like this: 
 
