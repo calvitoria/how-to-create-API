@@ -73,6 +73,7 @@ exemple: a chraracter API
 6. and then ``` npm i json-server --registry https://registry.npmjs.org``` 
 7. now your package.json will have a key 'dependencies' with json-server in it and its version.
 8. create a *server.js* file. In this file you will import the packages we just installed:
+> you can also do this step before initializing npm server.
 
 ``` 
 const jsonServer = require('json-server');
