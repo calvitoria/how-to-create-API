@@ -3,8 +3,8 @@
 </div>
 
 
-## how to mock an API
-This repository was created as a free, open-source guide on how to create your own mock API. When working on a personal project, it can be quite helpful, and you can even post it on gitHub so that others in the community can utilise it. Feel inspired? Atar this repository, so you can always come back and use it!
+## how to create your own API: 
+This repository was created as a free, open-source guide on how to create your own API and hosting it. When working on a personal project, it can be quite helpful, and you can even post it on gitHub so that others in the community can utilise it. Feel inspired? Atar this repository, so you can always come back and use it!
 
 
 <div>    
@@ -25,7 +25,7 @@ This repository was created as a free, open-source guide on how to create your o
 2. Open your terminal and install npm: ```npm install```
 3. type ```code .``` in your terminal to open VScode.
 4. Install Express: ```npm install express```
-5. you should now have a node modules folder, a package.json and a package-lock.json file.
+5. you should now have a node_modules folder, a package.json and a package-lock.json file.
 
 <hr/>
 <div>    
@@ -33,9 +33,9 @@ This repository was created as a free, open-source guide on how to create your o
 </div>
 
 #### let's start with our databasa file:
-1. in the folder of your choice, create an database.json file
+1. in the folder of your choice, create a database.json file
 > for this exemple I created a src folder and a characters folder in it, with the database.js populating it. (src/characters/characters.json)
-2. it is inportant to have in mind the 'template' you will be using in this database.
+2. it is important to have in mind the 'template' you will be using in this database.
 exemple: a chraracter API 
 
 ```
@@ -93,7 +93,7 @@ app.listen(port, () => {
 
 ```
 
-your package.json file should be something like this: 
+your package.json file should be looking similar to this: 
 
 ```
 { 
@@ -119,7 +119,7 @@ your package.json file should be something like this:
 > I used the github method. Just login, choose the repository you will be connecting and choose the way you want to deploy.
 4. use the button 'open app' to see the magic! Depending on how you made your files, you might have to type the endpoint of your database as well.
 
-> if you make it just like the exemple I give, just clicking the button wont be enough! You will need to type in the URL the endpoint of your json.
+> if you build your application just like the way I did, just clicking the button wont be enough! You will need to type in the URL the endpoint of your json.
 
 <hr/>
 
@@ -145,4 +145,5 @@ simple as that!
 
 <hr/>
 
+> I also post educational content on my [linkedIn](https://www.linkedin.com/in/calvitoria/), check it out!
 > this is a step by step of how to create your mock api. The content you see here is inspired by [this](https://www.youtube.com/watch?v=AC62XYv7Yos) youtube video from Stack Mobile.
