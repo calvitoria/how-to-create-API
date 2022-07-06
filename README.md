@@ -11,7 +11,7 @@ Esse repositório foi criado para mostrar o passo a passo de como criar uma API 
   <img alt="languages" width="250px" src="https://user-images.githubusercontent.com/95686401/177661767-6b216654-07b4-4ffe-9222-2146813ab958.png" /> 
 </div>
 
-#### clique [aqui](https://github.com/calvitoria/how-to-mock-API/blob/main/README.md) para acessar o material em inglês 🇬🇧
+#### click [here](https://github.com/calvitoria/how-to-mock-API/blob/main/README.md) to acsess the content in inglês 🇬🇧
 
 <hr/>
 
