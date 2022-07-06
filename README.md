@@ -76,13 +76,14 @@ exemple: a chraracter API
 ``` 
 const jsonServer = require('json-server');
 const server = jsonServer.create();
-const router = jsonServer.router('database.json'); // the file you created for your database
+const router = jsonServer.router('db.json');
 const middlewares = jsonServer.defaults();
 const port = process.env.PORT || 3000;
 
 server.use(middlewares);
 server.use(router);
-server.listen(port); 
+
+server.listen(port);
 ``` 
 
 now we need to write a script in the package.json file: in the object "scripts" you will add another key "start" with the value 'node server.js' ``` "start": "node server.js" ```
