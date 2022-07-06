@@ -19,7 +19,6 @@ This repository was created as a free, open-source guide on how to create your o
   <img alt="before starting, initial configuration" width="350px" src="https://user-images.githubusercontent.com/95686401/177658129-530cf712-dabe-4b4f-af06-03a9063f529f.png" /> 
 </div>
 
-#### initial configuration: 
 1. create the directory you want to have your files. 
 > I encourage you to make a github repo and then cloning it, so you can deploy in Heroku using this exact repository.
 2. Open your terminal and install npm: ```npm install```
