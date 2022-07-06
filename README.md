@@ -1,4 +1,9 @@
-# how-to-mock-API
+<div>    
+  <img alt="how to create your own api - this is a guide on how to make your own api using JS, node.js and Heroku! Dont forget to star this repository" src="https://user-images.githubusercontent.com/95686401/177616203-2cd9ebd1-0c3f-421b-bb05-587f063a4f3d.png" /> 
+</div>
+
+
+# how to mock a API
 This repository was created as a free, open-source guide on how to create your own mock API. When working on a personal project, it can be quite helpful, and you can even post it on gitHub so that others in the community can utilise it. Feel inspired? Atar this repository, so you can always come back and use it!
 
 ### clique aqui para acessar o material em PORTUGUÊS 🇧🇷
@@ -30,7 +35,7 @@ exemple: a chraracter API
 ``` npm install -g json --registry https://registry.npmjs.org ```  
 2. then type the command ``` json-server --watch database.json  ``` (the json file you just created) 
 3. accsess your database online using the output from your terminal
- >> something like https://localhost:3000/YourApiObject
+ > something like https://localhost:3000/YourApiObject
 
 
 1. create an account or login at heroku
