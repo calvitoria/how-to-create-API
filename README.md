@@ -16,7 +16,7 @@ This repository was created as a free, open-source guide on how to create your o
 <hr/>
 
 <div>    
-  <img alt="before starting" width="350px" src="https://user-images.githubusercontent.com/95686401/177616577-6c5eb48f-c6dd-4f0f-9f2e-ddda855b72d5.png" /> 
+  <img alt="before starting, initial configuration" width="350px" src="https://user-images.githubusercontent.com/95686401/177658129-530cf712-dabe-4b4f-af06-03a9063f529f.png" /> 
 </div>
 
 #### initial configuration: 
@@ -29,7 +29,7 @@ This repository was created as a free, open-source guide on how to create your o
 
 <hr/>
 <div>    
-  <img alt="1. create your database" width="350px" src="https://user-images.githubusercontent.com/95686401/177616577-6c5eb48f-c6dd-4f0f-9f2e-ddda855b72d5.png" /> 
+  <img alt="1. create your database" width="350px" src="https://user-images.githubusercontent.com/95686401/177658177-616660e3-7106-4ba6-bcc0-0cfa1f18cb25.png" /> 
 </div>
 
 #### let's start with our databasa file:
@@ -55,7 +55,7 @@ exemple: a chraracter API
 <hr/>
 
 <div>    
-  <img alt="create your index.js file" width="350px" src="https://user-images.githubusercontent.com/95686401/177616577-6c5eb48f-c6dd-4f0f-9f2e-ddda855b72d5.png" /> 
+  <img alt="create your index.js file" width="350px" src="https://user-images.githubusercontent.com/95686401/177658207-901e3cd6-85b1-43a7-878f-7ec338ab4520.png" /> 
 </div>
 
 1. create a index.js file
@@ -80,7 +80,7 @@ app.listen(port, () => {
 3. create a .gitignore file and add node_modules to it. ! this is really important ! to make a deploy to Heroku, you should NOT upload node_modules with the rest of your files.
 
 <div>    
-  <img alt="2. create your server" width="350px" src="https://user-images.githubusercontent.com/95686401/177617318-f2998246-f642-4910-aca8-2a0ffa9fb60b.png" /> 
+  <img alt="edit your package.json" width="350px" src="https://user-images.githubusercontent.com/95686401/177658247-5f6220ca-03d8-4bd3-b12f-9e45a44763d3.png" /> 
 </div>
 
 #### now let's edit our package.json
@@ -109,7 +109,7 @@ your package.json file should be something like this:
 <hr/>
 
 <div>    
-  <img alt="3. deploy your database" width="350px" src="https://user-images.githubusercontent.com/95686401/177617693-78ffa223-51cd-4dcb-8ca0-e0ebc5c8308f.png" /> 
+  <img alt="deploy your database" width="350px" src="https://user-images.githubusercontent.com/95686401/177658275-c0a1a02f-c92f-4a2c-99d7-3b30529eb4c0.png" /> 
 </div>
 
 #### ok, now we need to deploy our API
