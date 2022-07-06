@@ -1,5 +1,5 @@
 <div>    
-  <img alt="how to create your own api - this is a guide on how to make your own api using JS, node.js and Heroku! Dont forget to star this repository" src="https://user-images.githubusercontent.com/95686401/177616203-2cd9ebd1-0c3f-421b-bb05-587f063a4f3d.png" /> 
+  <img alt="how to create your own api - this is a guide on how to make your own api using JS, node.js and Heroku! Dont forget to star this repository" src="https://user-images.githubusercontent.com/95686401/177621091-81b2355f-eff5-467d-a81b-3bdec466baba.png" /> 
 </div>
 
 
@@ -28,11 +28,11 @@ exemple: a chraracter API
 {
 'characters': [
     {
-      'id': 0,
-      'name': 'characters name',
-      'series': 'the series this character is from',
-      'thumbnail': 'image url',
-      'description': 'description of the character',
+      "id": 0,
+      "name": "characters name",
+      "series": "the series this character is from",
+      "thumbnail": "image url",
+      "description": "description of the character",
     }
   ]
 }
