@@ -112,6 +112,8 @@ for linux: ``` curl https://cli-assets.heroku.com/install.sh | sh ```
 > now you have the link of your heroku project!
 5. make a commit
 6. now push your data to heroku! ```git push heroku main```
+7. we just need to open heroku now! ```heroku open``` will do ;)
+8. TADÃAAA! We are done!
 
 <hr/>
 
