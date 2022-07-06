@@ -67,6 +67,7 @@ exemple: a chraracter API
 1. create an account or login at heroku
 2. deploy the json you created using [heroku](https://www.heroku.com/home)
 3. initialize your project: in your terminal type the command ``` npm init ``` 
+> just keep pressing enter and then type yes to complete
 4. you now have your package.json file
 5. now in your terminal type the command ``` npm i ``` 
 6. and then ``` npm i json-server --registry https://registry.npmjs.org``` 
