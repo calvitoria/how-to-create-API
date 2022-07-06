@@ -100,7 +100,12 @@ now we need to write a script in the package.json file: in the object "scripts" 
 </div>
 
 #### install heroku and create a new project
-1. install heroku: in your terminal type the command ``` brew tap heroku/brew && brew install heroku ```
+1. install heroku: in your terminal type the command 
+
+for mac: ``` brew tap heroku/brew && brew install heroku ```
+
+for linux: ``` curl https://cli-assets.heroku.com/install.sh | sh ```
+
 2. ``` npm instal -g heroku --registry https://registry.npmjs.org ```
 3. make sure your'e logged in to heroku ``` heroku login ```in your terminal
 4. in your terminal: heroku create api-name
