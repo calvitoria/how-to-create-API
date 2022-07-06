@@ -11,7 +11,7 @@ This repository was created as a free, open-source guide on how to create your o
   <img alt="languages" width="250px" src="https://user-images.githubusercontent.com/95686401/177618703-b3400ec7-50ed-4b4e-941d-147437af7ab2.png" /> 
 </div>
 
-### clique aqui para acessar o material em português 🇧🇷
+### clique [aqui](https://github.com/calvitoria/how-to-mock-API/blob/portuguese-language/README.md) para acessar o material em português 🇧🇷
 
 <hr/>
 
