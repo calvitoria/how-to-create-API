@@ -8,7 +8,9 @@ This repository was created as a free, open-source guide on how to create your o
 
 ### clique aqui para acessar o material em PORTUGUÊS 🇧🇷
 
-
+<div>    
+  <img alt="1. create your database" width="" src="https://user-images.githubusercontent.com/95686401/177616577-6c5eb48f-c6dd-4f0f-9f2e-ddda855b72d5.png" /> 
+</div>
 1. in the folder of your choice, create an database.json file
 2. it is inportant to have in mind the 'template' you will be using in this database.
 exemple: a chraracter API 
