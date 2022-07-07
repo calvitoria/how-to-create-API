@@ -4,7 +4,7 @@
 
 
 ## how to create your own API: 
-This repository was created as a free, open-source guide on how to create your own API and hosting it. When working on a personal project, it can be quite helpful, and you can even post it on gitHub so that others in the community can utilise it. Feel inspired? Atar this repository, so you can always come back and use it!
+This repository was created as a free, open-source guide on how to create your own API and hosting it. When working on a personal project, it can be quite helpful, and you can even post it on gitHub so that others in the community can utilize it. Feel inspired? Atar this repository, so you can always come back and use it!
 
 
 <div>    
@@ -33,7 +33,8 @@ This repository was created as a free, open-source guide on how to create your o
 
 #### let's start with our databasa file:
 1. in the folder of your choice, create a database.json file
-> for this exemple I created a src folder and a characters folder in it, with the database.js populating it. (src/characters/characters.json)
+> in this example, I created an src folder and a characters folder inside it, with the database.js inside that folder.
+(path: src/characters/characters.json)
 2. it is important to have in mind the 'template' you will be using in this database.
 exemple: a chraracter API 
 
@@ -114,7 +115,7 @@ your package.json file should be looking similar to this:
 #### ok, now we need to deploy our API
 1. create an account or login at [heroku](https://www.heroku.com/home)
 2. at heroku website, create a *new app*. Name it after your API .
-3. after clicking in 'create app' you will be relocated to a new page, where you can choose the way you will be deploying your API.
+3. after clicking on 'create app' you will be redirected to a new page, where you can choose how you will be deploying your API.
 > I used the github method. Just login, choose the repository you will be connecting and choose the way you want to deploy.
 4. use the button 'open app' to see the magic! Depending on how you made your files, you might have to type the endpoint of your database as well.
 
@@ -127,7 +128,7 @@ your package.json file should be looking similar to this:
 </div>
 
 #### Using your API: 
-You can use the database using GET, POST, PUT, DELETE... requests to it. 
+You can use the database by sending GET, POST, PUT, DELETE... requests to it.
 
 ```
 fetch('https://NAME-OF-YOUR-API.herokuapp.com/DATABASE') 
