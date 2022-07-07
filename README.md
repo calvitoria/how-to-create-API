@@ -142,6 +142,9 @@ simple as that!
   <img alt="want to help the community? translate this content to your mother language!" src="https://user-images.githubusercontent.com/95686401/177618708-93d1f965-6d91-469e-995d-407e89be1483.png" /> 
 </div>
 
+If you got interested in contribuiting to this project, you can just clone the repository, open a new branch like ```"________-language"```, then just follow this README structure. If you want to add the Heading immages you can make a copy of [this](https://www.canva.com/design/DAFFwQQCaxw/8xlYGBJfRGUvEMcrQ1bn-g/edit?utm_content=DA[…]m_campaign=designshare&utm_medium=link2&utm_source=sharebutton) 
+template at Canva and edit. If you don't feel like it, no worries! Just make a normal heading to each step! If you want to use the canva template, you can use github issues to transform the png file to a URL. 
+
 <hr/>
 
 > I also post educational content on my [linkedIn](https://www.linkedin.com/in/calvitoria/), check it out!
