@@ -78,7 +78,7 @@ app.listen(port, () => {
 3. crie um arquivo .gitignore! esse passo é importantíssimo! se não o fizer, pode acabar dando problema na hora de fazer o deploy da sua API no heroku!
 
 <div>    
-  <img alt="edite seu package.json" width="350px" src="https://user-images.githubusercontent.com/95686401/177661748-f4ca9ec6-89f0-4f6e-aae9-bc5bd4618429.png" /> 
+  <img alt="edite seu package.json" width="350px" src="https://user-images.githubusercontent.com/95686401/178032049-101b072e-4e28-4497-bdd9-ed66d4629d76.png" /> 
 </div>
 
 #### agora vamos editar o arquivo package.json
