@@ -80,7 +80,7 @@ app.listen(port, () => {
 3. create a .gitignore file and add node_modules to it. ! this is really important ! to make a deploy to Heroku, you should NOT upload node_modules with the rest of your files.
 
 <div>    
-  <img alt="edit your package.json" width="350px" src="https://user-images.githubusercontent.com/95686401/178031902-a405a597-87f5-4537-9fef-b470f930729b.png" /> 
+  <img alt="edit your package.json" width="350px" src="https://user-images.githubusercontent.com/95686401/178032892-990b3638-b517-4e1d-87fc-6d64701ec4e8.png" /> 
 </div>
 
 #### now let's edit our package.json
