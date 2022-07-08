@@ -2,7 +2,7 @@
   <img alt="how to create your own api - this is a guide on how to make your own api using JS, node.js and Heroku! Dont forget to star this repository" src="https://user-images.githubusercontent.com/95686401/177621091-81b2355f-eff5-467d-a81b-3bdec466baba.png" /> 
 </div>
 
-
+# french: 
 ## how to create your own API: 
 This repository was created as a free, open-source guide on how to create your own API and hosting it. When working on a personal project, it can be quite helpful, and you can even post it on gitHub so that others in the community can utilise it. Feel inspired? Atar this repository, so you can always come back and use it!
 
@@ -12,6 +12,7 @@ This repository was created as a free, open-source guide on how to create your o
 </div>
 
 ### clique aqui para acessar o material em português 🇧🇷
+### click here to accsess the material in english 
 
 <hr/>
 
