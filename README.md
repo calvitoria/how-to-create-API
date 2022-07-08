@@ -4,7 +4,7 @@
 
 
 ## how to create your own API: 
-This repository was created as a free, open-source guide on how to create your own API and hosting it. When working on a personal project, it can be quite helpful, and you can even post it on gitHub so that others in the community can utilize it. Feel inspired? Atar this repository, so you can always come back and use it!
+This repository was created as a free, open-source guide on how to create your own API and hosting it. When working on a personal project, it can be quite helpful, and you can even post it on gitHub so that others in the community can utilize it. Feel inspired? Star this repository, so you can always come back and use it!
 
 
 <div>    
