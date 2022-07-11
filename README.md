@@ -1,42 +1,43 @@
 <div>    
-  <img alt="how to create your own api - this is a guide on how to make your own api using JS, node.js and Heroku! Dont forget to star this repository" src="https://user-images.githubusercontent.com/95686401/177621091-81b2355f-eff5-467d-a81b-3bdec466baba.png" /> 
+  <img alt="how to create your own api - this is a guide on how to make your own api using JS, node.js and Heroku! Dont forget to star this repository" src="https://user-images.githubusercontent.com/99758843/177888023-a2e43bcc-eb31-4270-9f64-06ae1eaeb3b2.png" />
 </div>
 
-# french: 
-## how to create your own API: 
-This repository was created as a free, open-source guide on how to create your own API and hosting it. When working on a personal project, it can be quite helpful, and you can even post it on gitHub so that others in the community can utilise it. Feel inspired? Atar this repository, so you can always come back and use it!
-
+## comment créer votre propre API:
+Ce dépôt a été créé comme un guide gratuit et open-source sur la façon de créer votre propre API et de l'héberger. Lorsqu'on travaille sur un projet personnel, il peut être très utile, et vous pouvez même le poster sur gitHub pour que d'autres membres de la communauté puissent l'utiliser. Vous vous sentez inspiré ? Atar ce dépôt, de sorte que vous pouvez toujours revenir et l'utiliser!
 
 <div>    
-  <img alt="languages" width="250px" src="https://user-images.githubusercontent.com/95686401/177618703-b3400ec7-50ed-4b4e-941d-147437af7ab2.png" /> 
+  <img alt="languages" width="250px" src="https://user-images.githubusercontent.com/99758843/177888035-11a0a34a-760d-4ca7-a6dd-f4f907105de5.png" />
 </div>
 
-### clique aqui para acessar o material em português 🇧🇷
-### click here to accsess the material in english 
+### clique [aqui](https://github.com/calvitoria/how-to-mock-API/blob/portuguese-language/README.md) para acessar o material em português :flag-br:
+
+### click [here](https://github.com/calvitoria/how-to-create-API/blob/main/README.md) to access the material in English :gb:
 
 <hr/>
 
 <div>    
-  <img alt="before starting, initial configuration" width="350px" src="https://user-images.githubusercontent.com/95686401/177658129-530cf712-dabe-4b4f-af06-03a9063f529f.png" /> 
+  <img alt="before starting, initial configuration" width="350px" src="https://user-images.githubusercontent.com/99758843/177888024-68b5c718-b9d6-41ff-b2da-29c2f237a90b.png" />
 </div>
 
-1. create the directory you want to have your files. 
-> I encourage you to make a github repo and then cloning it, so you can deploy in Heroku using this exact repository.
-2. Open your terminal and install npm: ```npm install```
-3. type ```code .``` in your terminal to open VScode.
-4. Install Express: ```npm install express```
-5. you should now have a node_modules folder, a package.json and a package-lock.json file.
+1. Créez le répertoire dans lequel vous souhaitez placer vos fichiers.
+> Je vous encourage à créer un dépôt github et à le cloner, afin de pouvoir déployer dans Heroku en utilisant ce dépôt exact.
+2. Ouvrez votre terminal et installez npm : ``npm install``.
+3. tapez ``code .`` dans votre terminal pour ouvrir VScode.
+4. Installez Express: ``npm install express``
+5. vous devriez maintenant avoir un dossier node_modules, un fichier package.json et un package-lock.json.
 
 <hr/>
+
 <div>    
-  <img alt="1. create your database" width="350px" src="https://user-images.githubusercontent.com/95686401/177658177-616660e3-7106-4ba6-bcc0-0cfa1f18cb25.png" /> 
+  <img alt="1. create your database" width="350px" src="https://user-images.githubusercontent.com/99758843/177888025-38e956eb-bcd2-4e3f-9509-39e328635a07.png" /> 
 </div>
 
-#### let's start with our databasa file:
-1. in the folder of your choice, create a database.json file
-> for this exemple I created a src folder and a characters folder in it, with the database.js populating it. (src/characters/characters.json)
-2. it is important to have in mind the 'template' you will be using in this database.
-exemple: a chraracter API 
+#### commençons par notre fichier databasa:
+1. Dans le dossier de votre choix, créez un fichier database.json.
+> dans cet exemple, j'ai créé un dossier src et un dossier characters à l'intérieur de celui-ci, avec le database.js à l'intérieur de ce dossier.
+(path: src/characters/characters.json)
+2. il est important d'avoir à l'esprit le 'template' que vous allez utiliser dans cette base de données.
+exemple: un chraracter API
 
 ```
 [
@@ -50,18 +51,19 @@ exemple: a chraracter API
   ]
 ```
 
-> You can modify this example to fit your needs
+> Vous pouvez modifier cet exemple pour l'adapter à vos besoins.
 
 <hr/>
 
 <div>    
-  <img alt="create your index.js file" width="350px" src="https://user-images.githubusercontent.com/95686401/177658207-901e3cd6-85b1-43a7-878f-7ec338ab4520.png" /> 
+  <img alt="create your index.js file" width="350px" src="https://user-images.githubusercontent.com/99758843/177888026-4e071b86-a6f8-4f4a-8d15-60dd4b72ec76.png" />
 </div>
 
-1. create a index.js file
-2. in your index.js file, type the following code: 
+1. créez un fichier index.js
+2. dans votre fichier index.js, tapez le code suivant:
 
-```const express = require("express")
+```
+const express = require("express")
 const app = express();
 const port = process.env.PORT || 3000
 
@@ -74,17 +76,17 @@ app.listen(port, () => {
     console.log('server is running...')
 })
 ```
-> to check if it's all good and running, type in your terminal ```node index.js``` the console.log should be printed.
-> pay attention to the path of your files!
+> pour vérifier si tout est bon et fonctionne, tapez dans votre terminal ``node index.js`` le console.log devrait s'imprimer.
+> faites attention au path de vos fichiers!
 
-3. create a .gitignore file and add node_modules to it. ! this is really important ! to make a deploy to Heroku, you should NOT upload node_modules with the rest of your files.
+3. créez un fichier .gitignore et ajoutez-y node_modules. ! c'est vraiment important ! pour faire un déploiement vers Heroku, vous ne devez PAS télécharger node_modules avec le reste de vos fichiers.
 
 <div>    
-  <img alt="edit your package.json" width="350px" src="https://user-images.githubusercontent.com/95686401/177658247-5f6220ca-03d8-4bd3-b12f-9e45a44763d3.png" /> 
+  <img alt="edit your package.json" width="350px" src="https://user-images.githubusercontent.com/99758843/177888028-017f70a4-0361-4fd0-8260-877f47da495e.png" />
 </div>
 
-#### now let's edit our package.json
-1. in your package.json file, add the object "scripts" with the key "start" and value "node index.js"
+#### maintenant éditons notre package.json
+1. Dans votre fichier package.json, ajoutez l'objet "scripts" avec la clé "start" et la valeur "node index.js".
 
 ```
 "scripts": {
@@ -93,7 +95,7 @@ app.listen(port, () => {
 
 ```
 
-your package.json file should be looking similar to this: 
+votre fichier package.json devrait ressembler à ceci:
 
 ```
 { 
@@ -109,26 +111,28 @@ your package.json file should be looking similar to this:
 <hr/>
 
 <div>    
-  <img alt="deploy your database" width="350px" src="https://user-images.githubusercontent.com/95686401/177658275-c0a1a02f-c92f-4a2c-99d7-3b30529eb4c0.png" /> 
+  <img alt="deploy your database" width="350px" src="https://user-images.githubusercontent.com/99758843/177888029-9ed445dd-0bd6-43ce-a220-eb47ee3fbbf0.png" />
 </div>
 
-#### ok, now we need to deploy our API
-1. create an account or login at [heroku](https://www.heroku.com/home)
-2. at heroku website, create a *new app*. Name it after your API .
-3. after clicking in 'create app' you will be relocated to a new page, where you can choose the way you will be deploying your API.
-> I used the github method. Just login, choose the repository you will be connecting and choose the way you want to deploy.
-4. use the button 'open app' to see the magic! Depending on how you made your files, you might have to type the endpoint of your database as well.
+#### ok, maintenant nous devons déployer notre API
+1. créer un compte ou se connecter à [heroku](https://www.heroku.com/home)
+2. sur le site heroku, créez une *new app*. Donnez-lui le nom de votre API.
+3. après avoir cliqué sur "create app", vous serez redirigé vers une nouvelle page, où vous pouvez choisir comment vous allez déployer votre API.
 
-> if you build your application just like the way I did, just clicking the button wont be enough! You will need to type in the URL the endpoint of your json.
+> J'ai utilisé la méthode Github. Il suffit de se connecter, de choisir le dépôt auquel vous allez vous connecter et de choisir le mode de déploiement.
+
+4. utilisez le bouton 'open app' pour voir la magie ! Selon la façon dont vous avez créé vos fichiers, vous devrez peut-être aussi saisir le point de terminaison de votre base de données.
+
+> Si vous construisez votre application comme je l'ai fait, cliquer simplement sur le bouton ne sera pas suffisant ! Vous devrez taper dans l'URL le endpoint de votre json.
 
 <hr/>
 
 <div>    
-  <img alt="using your api" width="350px" src="https://user-images.githubusercontent.com/95686401/177618276-e053e9cf-dad0-4e4d-b556-2f9bbeb4c8bf.png" /> 
+  <img alt="using your api" width="350px" src="https://user-images.githubusercontent.com/99758843/177888032-07613f66-0b31-44e2-b677-7c43cf221c15.png" />
 </div>
 
-#### Using your API: 
-You can use the database using GET, POST, PUT, DELETE... requests to it. 
+#### Utilisation de votre API:
+Vous pouvez utiliser la base de données en lui envoyant des requêtes GET, POST, PUT, DELETE...
 
 ```
 fetch('https://NAME-OF-YOUR-API.herokuapp.com/DATABASE') 
@@ -136,14 +140,11 @@ fetch('https://NAME-OF-YOUR-API.herokuapp.com/DATABASE')
   .then(data => console.log(data));
 ```
  
-simple as that! 
-
+C'est aussi simple que cela!
 
 <div>    
-  <img alt="want to help the community? translate this content to your mother language!" src="https://user-images.githubusercontent.com/95686401/177618708-93d1f965-6d91-469e-995d-407e89be1483.png" /> 
+  <img alt="want to help the community? translate this content to your mother language!" src="https://user-images.githubusercontent.com/99758843/177888036-b36a2ee3-a4b5-41f9-9e21-c0569af166b7.png" />
 </div>
 
-<hr/>
-
-> I also post educational content on my [linkedIn](https://www.linkedin.com/in/calvitoria/), check it out!
-> this is a step by step of how to create your mock api. The content you see here is inspired by [this](https://www.youtube.com/watch?v=AC62XYv7Yos) youtube video from Stack Mobile.
+Si vous êtes intéressé à contribuer à ce projet, vous pouvez simplement cloner le dépôt, ouvrir une nouvelle branche comme ``"________-language"``, puis suivre la structure du README. Si vous voulez ajouter les images d'en-tête, vous pouvez faire une copie de [cette](https://www.canva.com/design/DAFFwQQCaxw/8xlYGBJfRGUvEMcrQ1bn-g/edit?utm_content=DA[...]m_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+sur Canva et modifiez-le. Si vous n'en avez pas envie, pas d'inquiétude ! Il suffit de créer un titre normal pour chaque étape ! Si vous voulez utiliser le modèle de Canva, vous pouvez utiliser les issues de Github pour transformer le fichier png en URL.
