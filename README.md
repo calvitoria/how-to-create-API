@@ -9,7 +9,7 @@ Ce dépôt a été créé comme un guide gratuit et open-source sur la façon de
   <img alt="languages" width="250px" src="https://user-images.githubusercontent.com/99758843/177888035-11a0a34a-760d-4ca7-a6dd-f4f907105de5.png" />
 </div>
 
-### clique [aqui](https://github.com/calvitoria/how-to-mock-API/blob/portuguese-language/README.md) para acessar o material em português :flag-br:
+### clique [aqui](https://github.com/calvitoria/how-to-mock-API/blob/portuguese-language/README.md) para acessar o material em português 🇧🇷
 
 ### click [here](https://github.com/calvitoria/how-to-create-API/blob/main/README.md) to access the material in English :gb:
 
